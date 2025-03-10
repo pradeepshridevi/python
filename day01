@@ -1,0 +1,46 @@
+a=input("enter your name:")
+b=input("enter your age:")
+c=input("enter your weight:")
+print("my name is",a)
+print("my age is",b)
+print("my weight is",c)
+
+  
+num1 = int(input("Enter first number:"))
+num2 = int(input("Enter second number:"))
+result = num1+ num2
+print("The sum is:",result)
+
+num1 = int(input("Enter first number:"))
+num2 = int(input("Enter second number:"))
+result = multiply(num1, num2)
+print(f"The multiplication is result")  
+
+
+num1 = int(input("enter the first number"))
+num2 = int(input("enter the second number"))
+a = num1+num2
+b = num1*num2
+c = num1-num2
+d = num1/num2
+print(a,b,c,d)
+
+r = float(input("enter radius of circle"))
+area = 3.14*r*r
+print("area of circle ",area)
+
+
+celsius = float(input("enter temperature in celsius"))
+fahrenheit = (celsius*9/5)+32
+print("temperaturee in fahrenheit",fahrenheit)
+
+
+fahrenheit = float(input("enter temperature in fahrenheit"))
+celsius = (fahrenheit-32)*5/9
+print("temperature in celsius",celsius)
+
+
+w= int(input("enter your weight"))
+h= float(input("enter your height"))
+bmi=w/(h*h)
+print(bmi)
