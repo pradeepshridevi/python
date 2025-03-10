@@ -1,0 +1,6 @@
+a=input("enter your name:")
+b=input("enter your age:")
+c=input("enter your weight:")
+print("my name is",a)
+print("my age is",b)
+print("my weight is",c)
