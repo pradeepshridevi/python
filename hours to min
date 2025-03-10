@@ -1,0 +1,3 @@
+hour=int(input("enter time in hour"))
+min=hour*60
+print(min)
